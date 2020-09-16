@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logoText">Rashmi Joshi</li>
+            <li>
+                <ul>
+                    <li><a href="#home" class="nav-link">HOME</a></li>
+                    <li><a href="#bio" class="nav-link">BIO</a></li>
+                    <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+                    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li><a href="#contact" class="nav-link link-button">CONTACT</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div>
+            <p>I BELIEVE IN</p>
+            <h1>EAT ( );SLEEP ( );CODE ( );REPEAT ( );</h1>
+        </div>
+    </header>
+
+    <section id="bio">
+        <img src="assets/Rashmi_Joshi.jpg" alt="My Picture">
+        <article>
+            <h2>Rashmi Joshi</h2>
+            <p>
+                Hello, I am a Computer Science Engineer. I have done my engineering from Shri Sant Gajanan Maharaj
+                College of Engineering.
+                <span class="break"></span>
+                I have scored 67% in my engineering. Some of the Languages that i know are C,C++,Java,HTML, CSS,
+                Javascript.I also have knowledge of Data Structure, Operating Systems and DBMS.
+                <span class="break"></span>
+                Currently, I am attending a Front end development Bootcamp with Face Pro-Grad.
+            </p>
+            
+            <a href="/assets/" class="link-button" download="RashmiJResume.pdf">Download My Resume</a>
+        </article>
+    </section>
+
+    <section id="portfolio">
+        <h3>PORTFOLIO</h3>
+        <p>Some of my best projects are</p>
+        <hr>
+        <div>
+            <article>
+                <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="codeImg">
+                <h4>Personal Blog</h4>
+                <p>It contains my Resume and my projects.</p>
+            </article>
+
+            <article>
+                <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="codeImg">
+                <h4>Library Management System</h4>
+                <p>It helps in adding books and issuing them from Library.</p>
+            </article>
+
+            <article>
+                <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="codeImg">
+                <h4>Note Taker</h4>
+                <p>Adds notes typed by the user.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h3>SKILLS</h3>
+        <div id="skills-container">
+        <div>
+            <h4>Technical Skills</h4>
+            <div>
+                <ul>
+                    <li>HTML</li>
+                    <li>
+                        <progress max="100" value="80"></progress>
+                    </li>
+                    <li>CSS</li>
+                    <li>
+                        <progress max="100" value="50"></progress>
+                    </li>
+                    <li>JAVASCRIPT</li>
+                    <li>
+                        <progress max="100" value="50"></progress>
+                    </li>
+                    <li>JAVA</li>
+                    <li>
+                        <progress max="100" value="70"></progress>
+                    </li>
+                    <li>PYTHON</li>
+                    <li>
+                        <progress max="100" value="40"></progress>
+                    </li>
+                    <li>C</li>
+                    <li>
+                        <progress max="100" value="70"></progress>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h4>Languages</h4>
+            <div>
+                <ul>
+                    <li>ENGLISH</li>
+                    <li>
+                        <progress max="100" value="80"></progress>
+                    </li>
+                    <li>HINDI</li>
+                    <li>
+                        <progress max="100" value="80"></progress>
+                    </li>
+                    <li>MARATHI</li>
+                    <li>
+                        <progress max="100" value="85"></progress>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>CONTACT</h3>
+        <form action="mailto:rashmeejoshi124@gmail.com" method="POST" enctype="text/plain">
+            <input class="input" type="text" name="name" placeholder="Enter your name">
+            
+            <input class="input" type="text" name="email" placeholder="Enter your Email">
+            
+            <input class="input" type="text" name="Message" placeholder="Enter your Msg">
+            
+            <input type="submit" class="link-button" value="Send Message">
+        </form>
+    </footer>
+
+</body>
+
+</html>
